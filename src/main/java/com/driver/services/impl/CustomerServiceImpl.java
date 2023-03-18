@@ -60,7 +60,7 @@ public class CustomerServiceImpl implements CustomerService {
 		});
 		Driver driver=null;
 		for(Cab cab: cabs){
-			if(cab.isAvailable()){
+			if(cab.getAvailable()){
 				driver=cab.getDriver();
 				break;
 			}

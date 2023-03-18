@@ -5,14 +5,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Driver {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    int driverId;
-
     public Driver( String mobile, String password) {
         this.mobile = mobile;
         this.password = password;
     }
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    int driverId;
 
     String mobile;
 

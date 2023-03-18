@@ -5,6 +5,11 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 public class Admin{
+
+    public Admin(String username, String password) {
+        this.username = username;
+        this.password = password;
+    }
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int adminId;
@@ -30,11 +35,6 @@ public class Admin{
     }
 
     public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public Admin(String username, String password) {
-        this.username = username;
         this.password = password;
     }
 

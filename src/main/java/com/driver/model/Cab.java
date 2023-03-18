@@ -8,13 +8,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Cab {
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    int id;
 
     public Cab(int perKmRate, boolean available) {
         this.perKmRate = perKmRate;
         this.available = available;
     }
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    int id;
 
     public int getId() {
         return id;

@@ -5,8 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Customer {
-
-
     Customer(String mobile,String password){
         this.mobile=mobile;
         this.password=password;

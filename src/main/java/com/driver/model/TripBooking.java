@@ -3,6 +3,7 @@ package com.driver.model;
 
 import javax.persistence.*;
 
+@Entity
 public class TripBooking {
     public TripBooking(String fromLocation, String toLocation, int distanceInKm, TripStatus status, int bill, Customer customer, Driver driver) {
         this.fromLocation = fromLocation;

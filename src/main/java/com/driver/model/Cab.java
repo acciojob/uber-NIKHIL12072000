@@ -1,12 +1,10 @@
 package com.driver.model;
 
-import javax.persistence.CascadeType;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.OneToOne;
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
+@Entity
 public class Cab {
 
     public Cab(int perKmRate, boolean available) {

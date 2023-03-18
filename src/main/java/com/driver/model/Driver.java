@@ -6,6 +6,7 @@ import java.util.List;
 
 @Entity
 public class Driver {
+    public Driver(){}
     public Driver( String mobile, String password) {
         this.mobile = mobile;
         this.password = password;

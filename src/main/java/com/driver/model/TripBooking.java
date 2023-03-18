@@ -5,6 +5,7 @@ import javax.persistence.*;
 
 @Entity
 public class TripBooking {
+    public TripBooking(){}
     public TripBooking(String fromLocation, String toLocation, int distanceInKm, TripStatus status, int bill, Customer customer, Driver driver) {
         this.fromLocation = fromLocation;
         this.toLocation = toLocation;

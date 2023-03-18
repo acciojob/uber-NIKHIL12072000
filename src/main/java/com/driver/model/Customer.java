@@ -6,7 +6,9 @@ import java.util.List;
 
 @Entity
 public class Customer {
-    Customer(String mobile,String password){
+
+    public Customer(){}
+    public Customer(String mobile,String password){
         this.mobile=mobile;
         this.password=password;
     }

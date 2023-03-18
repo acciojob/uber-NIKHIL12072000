@@ -6,7 +6,6 @@ import java.util.List;
 
 public class Customer {
 
-    Customer(){}
 
     Customer(String mobile,String password){
         this.mobile=mobile;

@@ -11,7 +11,6 @@ public class Cab {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;
 
-    Cab(){}
     public Cab(int perKmRate, boolean available) {
         this.perKmRate = perKmRate;
         this.available = available;

@@ -9,8 +9,6 @@ public class Driver {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int driverId;
 
-    Driver(){}
-
     public Driver( String mobile, String password) {
         this.mobile = mobile;
         this.password = password;

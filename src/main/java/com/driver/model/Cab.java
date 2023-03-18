@@ -54,13 +54,4 @@ public class Cab {
         this.driver = driver;
     }
 
-    public List<TripBooking> getTripBookingList() {
-        return tripBookingList;
-    }
-
-    public void setTripBookingList(List<TripBooking> tripBookingList) {
-        this.tripBookingList = tripBookingList;
-    }
-
-    List<TripBooking> tripBookingList=new ArrayList<>();
 }

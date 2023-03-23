@@ -43,7 +43,8 @@ public class Cab {
     int perKmRate;
     boolean available;
 
-    @OneToOne(mappedBy = "cab", cascade = CascadeType.ALL)
+    @OneToOne
+    @JoinColumn
     Driver driver;
 
     public Driver getDriver() {

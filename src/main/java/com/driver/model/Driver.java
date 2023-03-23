@@ -42,8 +42,7 @@ public class Driver {
     }
 
     String password;
-    @OneToOne
-    @JoinColumn
+    @OneToOne(mappedBy = "driver", cascade = CascadeType.ALL)
     Cab cab;
 
     public Cab getCab() {
